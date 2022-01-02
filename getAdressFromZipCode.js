@@ -9,7 +9,7 @@
     kintone.events.on(eventsShowAndEdit, event => {
         button = document.createElement('button');
         button.textContent = '住所取得';
-        const space = kintone.app.record.getSpaceElement('zipCodeButtonSpace').appendChild(button);
+        kintone.app.record.getSpaceElement('zipCodeButtonSpace').appendChild(button);
         return event;
     });
 
