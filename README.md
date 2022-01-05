@@ -1,1 +1,1 @@
-kintone API動作確認用
+kintone API 動作確認用
