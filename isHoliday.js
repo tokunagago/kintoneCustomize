@@ -34,7 +34,7 @@
             }
           },
           function (reason) {
-            console.log('Error: ' + reason.result.error.message);
+            console.log(`ERROR : ${reason.result.error.message}`);
           }
         );
     }
