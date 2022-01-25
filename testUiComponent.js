@@ -39,7 +39,7 @@
 
     // ローディングスピナー
     const spinner = new Kuc.Spinner({
-      text: 'ロード中'
+      text: 'ロード中',
     });
     spinner.open();
     setTimeout(() => {
